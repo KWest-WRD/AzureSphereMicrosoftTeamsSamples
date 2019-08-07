@@ -1,0 +1,1 @@
+{"SchemaVersion":1,"Name":"Azure_Sphere_Basic_Teams_Webhook_Push","ComponentId":"6D6C6849-B620-4BCB-93EE-599EC275A621","EntryPoint":"/bin/app","CmdArgs":[],"Capabilities":{"AllowedConnections":["outlook.office.com"]},"ApplicationType":"Default","TargetApplicationRuntimeVersion":2,"TargetBetaApis":"Beta1905"}
