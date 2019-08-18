@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="epoll_timerfd_utilities.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm6dso_reg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="epoll_timerfd_utilities.h" />
+    <ClInclude Include="applibs_versions.h" />
+    <ClInclude Include="mt3620_avnet_dev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lsm6dso_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="certs\DigiCertGlobalRootCA.pem" />
+    <None Include="app_manifest.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0fb2eee2-2a04-4ab2-9079-c642bdeee187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d1e93fed-21e6-417c-ac40-045664388c86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

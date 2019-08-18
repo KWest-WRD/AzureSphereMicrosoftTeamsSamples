@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (obj\ARM\Debug\) contains files shared from another project (HTTPS_Curl_Easy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Azure Sphere Utility version 19.5.4.53731
+  Copyright (C) Microsoft Corporation. All rights reserved.
+   
+  Start time (UTC): Wednesday, 14 August 2019 20:36:28 
+  verbose: Creating image package. 
+  verbose: Azure Sphere application image package written. 
+  verbose: Appending metadata. 
+  verbose: Wrote metadata:
+    Section: Identity
+      Image Type:           Application
+      Component ID:         e3382bc3-03a5-4822-b132-fc169dfab817
+      Image ID:             ddcb8ade-e863-49df-bed0-72215e9d033a
+    Section: Signature
+      Signing Type:         ECDsa256
+      Cert:                 a8d5cc6958f48710140d7a26160fc1cfc31f5df0
+    Section: Debug
+      Image Name:           Azure_Sphere_Basic_Send_Temp_To_
+      Built On (UTC):       8/14/2019 8:36:29 PM
+      Built On (Local):     8/14/2019 9:36:29 PM
+    Section: Temporary Image
+      Remove image at boot: False
+      Under development:    True
+    Section: ABI Depends
+      Depends on:           ApplicationRuntime, version 2
+   
+  verbose: Packaging completed successfully. 
+  verbose: Output file is at: D:\Tom\Documents\GitHub\AzureSphereMicrosoftTeamsSamples\Samples\FlowSamples\TempToFlow\TempToFlow\bin\ARM\Debug\AzureSphereBasicTeamsWebhookPush.imagepackage 
+  Command completed successfully in 00:00:00.5551953. 
